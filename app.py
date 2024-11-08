@@ -13,7 +13,7 @@ load_dotenv()
  
  
 # Database URl from render DONT FORGER postgresql+asyncpg://
-DATABASE_URL = f""
+DATABASE_URL = f"postgresql+asyncpg://course_python_db_73ps_user:ihgPQevKKAVKBMPDLKOjfatoN3N8LoKc@dpg-csn1810gph6c73frdatg-a.frankfurt-postgres.render.com/course_python_db_73ps"
  
 # Initialization SQLAlchemy
 engine = create_async_engine(DATABASE_URL, echo=True)
